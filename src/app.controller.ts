@@ -11,7 +11,7 @@ export class AppController {
 
   @Get()
   @Render("index")
-  getHello(): IData[] {
+  getHello() {
     return {};
   }
 
