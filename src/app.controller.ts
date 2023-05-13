@@ -12,8 +12,7 @@ export class AppController {
   @Get()
   @Render("index")
   getHello(): IData[] {
-    const students: IData[] = this.appService.getAllData();
-    return students;
+    return {};
   }
 
   @Post()
